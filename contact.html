@@ -15,7 +15,7 @@
   <!-- Header -->
   <header class="header">
     <div class="container">
-      <a href="index.html" class="logo">J & R <span>Steel Welding</span></a>
+      <a href="index.html" class="logo">J&R <span>Steel Welding</span></a>
       <nav>
         <button class="nav__toggle" aria-label="Toggle navigation">
           <span></span>
@@ -33,47 +33,53 @@
 
   <main>
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero hero--sub">
       <div class="container">
+        <span class="label" style="color: var(--color-primary-light);">Get In Touch</span>
         <h1>Contact Us</h1>
         <p>Get in touch for a free estimate on your next steel erection or construction project.</p>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="section section--alt">
+    <section class="section">
       <div class="container">
         <div class="contact-grid">
 
           <!-- Contact Form -->
-          <div class="fade-in">
-            <h2 style="margin-bottom: 1.5rem;">Send Us a Message</h2>
+          <div class="contact-form-card fade-in">
+            <h2>Send Us a Message</h2>
+            <p>Fill out the form below and we'll get back to you as soon as possible.</p>
             <form id="contact-form" novalidate>
-              <div class="form-group">
-                <label for="name">Full Name *</label>
-                <input type="text" id="name" name="name" required placeholder="John Smith">
-                <div class="error-message">Please enter your name.</div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name *</label>
+                  <input type="text" id="name" name="name" required placeholder="John Smith">
+                  <div class="error-message">Please enter your name.</div>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" required placeholder="john@example.com">
+                  <div class="error-message">Please enter a valid email address.</div>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="email">Email Address *</label>
-                <input type="email" id="email" name="email" required placeholder="john@example.com">
-                <div class="error-message">Please enter a valid email address.</div>
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
-              </div>
-              <div class="form-group">
-                <label for="subject">Subject *</label>
-                <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
-                <div class="error-message">Please enter a subject.</div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject *</label>
+                  <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                  <div class="error-message">Please enter a subject.</div>
+                </div>
               </div>
               <div class="form-group">
                 <label for="message">Message *</label>
                 <textarea id="message" name="message" required placeholder="Tell us about your project..."></textarea>
                 <div class="error-message">Please enter your message.</div>
               </div>
-              <button type="submit" class="btn btn--primary" style="width: 100%;">Send Message</button>
+              <button type="submit" class="btn btn--primary btn--arrow" style="width: 100%; justify-content: center;">Send Message</button>
             </form>
 
             <div class="form-success" id="form-success">
@@ -131,7 +137,7 @@
     <div class="container">
       <div class="footer__grid">
         <div class="footer__brand">
-          <h3>J & R <span>Steel Welding</span></h3>
+          <h3>J&R <span>Steel Welding</span></h3>
           <p>Houston's trusted commercial steel erection company. Steel erection, tilt-wall panels, and metal decking — safe and professional on every project.</p>
         </div>
         <div class="footer__links">
